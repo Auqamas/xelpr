@@ -3,7 +3,7 @@ body {
   color: #818181;
   font-weight: 300;
   font-size: 15px;
-  background: #EEEEEE; }
+  background: #e6e6e6; }
   body:before {
     -webkit-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
@@ -135,10 +135,12 @@ h1, h2, h3, h4, h5,
     padding: 4em 0; }
 
 .site-section-heading {
+  margin-top: 100px;
   padding-bottom: 20px;
   margin-bottom: 0px;
   position: relative;
-  font-size: 28px; }
+  font-size: 28px;
+}
   @media (min-width: 768px) {
     .site-section-heading {
       font-size: 30px; } }
