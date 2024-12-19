@@ -33,7 +33,9 @@ body {
 ::selection {
   background: #000;
   color: #fff; }
-
+::-webkit-scrollbar{
+  display: none;
+}
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
