@@ -306,6 +306,7 @@ h1, h2, h3, h4, h5,
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  align-items: center;
   width: 100%; /* Ensure it scales with screen width */
   height: 100%; /* Ensure it scales with screen height */
   overflow: hidden; }
@@ -609,12 +610,15 @@ h1, h2, h3, h4, h5,
 /* Blocks */
 .top-bar {
   background: transparent !important;
+  margin-bottom: 20px;
+  z-index: 2000 !important;
   font-size: 13px;
   position: absolute;
   top: 0;
   width: 100%; }
   .top-bar a {
-    color: #000; }
+    color: #000;
+  }
 
 .typed-words {
   font-weight: 700; }
@@ -1618,9 +1622,18 @@ h1, h2, h3, h4, h5,
 
 .social-media {
   display: inline-block;
-  margin-bottom: 0px; }
+ }
   .social-media li {
-    display: inline-block; }
+    display: inline-block;
+    padding: 0px 5px;
+    transition: 0.8s ease-out;
+ }
+
+.social-media li:hover{
+  background-color: #fff;
+  border-radius: 20px;
+  transition: 0.3s ease-in;
+}
 
 .ft-feature-1 {
   margin-bottom: 80px; }
