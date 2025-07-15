@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const formData = new FormData(form);
 
-    const response = await fetch("https://formsubmit.co/xelpr@info.com", {
+    const response = await fetch("https://formsubmit.co/farhanfastian22@gmail.com", {
       method: "POST",
       body: formData,
     });
